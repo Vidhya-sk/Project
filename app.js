@@ -25,7 +25,7 @@ form.addEventListener("submit", (e) => {
     // as for each is started cycling from the very first user answer which position is 0, we are matching it with correct answers index starting from 0
     if (answer === correctAnswers[index]) {
       // if it finds correct answer it will add 25 to the score
-      score +=25 ;
+      score +=50;
     }
   });
   // show result on page
